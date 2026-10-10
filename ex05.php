@@ -4,7 +4,7 @@
 <body>
 <h1>Exercice 5 — Conditions et mentions</h1>
 <?php
-// Modifier cette valeur pour tester les différentes limites.
+
 $moyenne = 14;
 if ($moyenne < 0 || $moyenne > 20) {
     $message = "Note invalide";

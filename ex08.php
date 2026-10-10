@@ -6,6 +6,8 @@
 <?php
 echo "<h2>1. Nombres pairs</h2>";
 $nombre = 0;
+//1.Avec while, afficher les nombres pairs de 0 à 20 inclus et mettre uniquement 10 en gras.
+
 while ($nombre <= 20) {
     if ($nombre == 10) {
         echo "<strong>$nombre</strong><br>";
@@ -14,6 +16,7 @@ while ($nombre <= 20) {
     }
     $nombre += 2;
 }
+//2.Initialiser un compteur à 5. Avec la condition « compteur inférieur à 5 », comparer une boucle while et une boucle do-while. Réinitialiser le compteur avant chaque boucle et compter les exécutions de leur corps.
 echo "<h2>2. while et do-while</h2>";
 $compteur = 5;
 $executionsWhile = 0;
